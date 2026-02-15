@@ -1,0 +1,10 @@
+income=int(input())
+cr_score=int(input())
+debt=int(input())
+
+if income>=30000 and cr_score>=700 and debt<20000:
+  print("Eligible")
+elif cr_score>=600:
+  print("Review")
+else:
+  print("Reject")
