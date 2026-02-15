@@ -1,0 +1,10 @@
+lst=list(map(int,input()))
+result=[]
+for i in lst:
+  if i not in result:
+    result.append(i)
+result.sort()
+if len(result)<2:
+  print("-1")
+else:
+  print(result[-2])
