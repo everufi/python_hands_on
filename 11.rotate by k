@@ -1,0 +1,7 @@
+lst=input()
+n=len(lst)
+k=k%n
+for i in range(k):
+  num=lst.pop()
+  lst.insert(0,num)
+print(lst)
